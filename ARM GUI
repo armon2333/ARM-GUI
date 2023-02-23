@@ -1,0 +1,121 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "ARMON GUI😈", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--MAIN
+local Tab = Window:MakeTab({
+	Name = "Main 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local MainSection = Tab:AddSection({
+	Name = "Roblox Scripts"
+})
+
+Tab:AddButton({
+	Name = "Infinity Yeald",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "FLING ALL",
+	Callback = function()
+      	loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop fling all'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Hat Fling",
+	Callback = function()
+      	loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/544f7efbe88235666b5b7add65b7344d/raw/f20804bb85542dcc3bc938982e1f05b7ff05cded/FE%2520Hat%2520Fling'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Fly Gui",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/armon2333/Fly/main/Fly'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "GOD MOD",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://raw.githubusercontent.com/NotFalxe/Roblox-Scripts/source-code/headfling.lua'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Anti Fling",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://raw.githubusercontent.com/armon2333/Anti-fling/main/anti%20fling'),true))()
+  	end    
+})
+
+--MAIN
+local Tab = Window:MakeTab({
+	Name = "Main 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local MainSection = Tab:AddSection({
+	Name = "Roblox Scripts"
+})
+
+Tab:AddButton({
+	Name = "Instant Kill",
+	Callback = function()
+      	loadstring(game:HttpGet("https://pastebin.com/raw/v8PX741z"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SPY Chat",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/armon2333/SPY/main/SPY"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Traductor Español",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/armon2333/Traductor-espa-ol/main/Traductor%20espa%C3%B1ol"))()
+  	end    
+})
+
+--MAIN
+local Tab = Window:MakeTab({
+	Name = "🦁 Animal Sim",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local MainSection = Tab:AddSection({
+	Name = "ANIMAL"
+})
+Tab:AddButton({
+	Name = "HitBox",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/shit%20script%20pack/CheatX'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Click Attack",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/LeftOnReadInvalid/RobloxStuff/main/Animal%20Simulator%20GUI', true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "ONI HUB 👹",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Xen101/Roblox/c17c0ec19cfb9cc337eabc53db0bb5245218a6db/Animal%20Simulator/ONI-HUB%20Open%20Source'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Radio",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://raw.githubusercontent.com/armon2333/Radio-Animal/main/Radio%20GUI'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ANTI-AFK",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
+  	end    
+})
